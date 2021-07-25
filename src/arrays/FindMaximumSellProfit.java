@@ -1,6 +1,5 @@
 package arrays;
 
-
 import com.sun.tools.javac.util.Pair;
 
 public class FindMaximumSellProfit {
@@ -38,24 +37,6 @@ public class FindMaximumSellProfit {
         return maxProfit;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     public static Pair<Integer, Integer> findMaximumSellProfit(int length, int[] arr) {
         int currentBuy = arr[0];
         int globalSell = arr[1];
@@ -81,10 +62,6 @@ public class FindMaximumSellProfit {
         int optimalSellPrice = globalSell;
         return Pair.of(optimalBuyPrice, optimalSellPrice) ;
     }
-
-
-
-
 
     public static void main(String[] args) {
         int[] arr = {100, 80, 120, 130, 70, 60, 100, 125};
